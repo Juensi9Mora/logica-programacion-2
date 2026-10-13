@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Conversor de temperatura</h1>
+        <p class="descripcion">Ingresa una temperatura en grados Celsius y conviértela a Kelvin y Fahrenheit.</p>
+
+        <button id="btnConversor" type="button">Ingresar temperatura</button>
+
+        <section id="resultado" class="resultado" aria-live="polite" hidden>
+            <h2>Resultados</h2>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>Celsius</h3>
+                    <p class="dato dato-celsius" id="txtCelsius"></p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Kelvin</h3>
+                    <p class="dato dato-kelvin" id="txtKelvin"></p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Fahrenheit</h3>
+                    <p class="dato dato-fahrenheit" id="txtFahrenheit"></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
